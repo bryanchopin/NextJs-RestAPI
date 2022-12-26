@@ -1,39 +1,19 @@
 {
   "notes": [
     {
-      "name": "javier",
-      "note": "el pino mascario",
+      "name": "Bryan",
+      "note": "test 1",
       "id": 1
     },
     {
-      "name": "bryan",
-      "note": "test 1 awebo",
+      "name": "Bryan",
+      "note": "test 2",
       "id": 2
     },
     {
-      "name": "bryan",
-      "note": "test 1 awebo",
-      "id": 3
-    },
-    {
-      "name": "bryan",
-      "note": "test 1 awebo",
-      "id": 4
-    },
-    {
-      "name": "bryan",
-      "note": "vamos por el quinto",
-      "id": 5
-    },
-    {
-      "name": "bryan",
-      "note": "holaaaaaa",
-      "id": 6
-    },
-    {
       "name": "Bryan",
-      "note": "sdsdsdsd",
-      "id": 7
+      "note": "indiana jones",
+      "id": 3
     }
   ]
 }
