@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
+  //get data from form
   const submit = async (e) => {
     e.preventDefault()
     const formData = {
@@ -11,6 +12,7 @@ export default function Home() {
       note: e.target.note.value
     }
 
+    //send data to api
     fetch('/api/notes', {
       method: 'POST',
       body: JSON.stringify(formData)

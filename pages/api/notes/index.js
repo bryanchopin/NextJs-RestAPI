@@ -1,7 +1,6 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
 export default async function handler(req, res) {
 
+  // only allow by post request
   if(req.method === 'POST') {
     await fetch ('http://localhost:3001/notes',{
       headers: {
@@ -13,6 +12,7 @@ export default async function handler(req, res) {
     return res.status(202).json({ message: 'Success' })
   }
 
+  // only allow by get request and return all notes
   // if(req.method === 'GET') {
   //   const res = await fetch('http://localhost:3001/notes',{
   //     headers: {
